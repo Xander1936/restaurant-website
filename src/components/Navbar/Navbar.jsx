@@ -36,7 +36,7 @@ const Navbar = () => {
           <ul className='app__navbar-smallscreen-links'>
             <li className='p__opensans'><a href='#home' onClick={() => setToggleMenu(false)} id='home'>Home</a></li>
             <li className='p__opensans'><a href='#about' onClick={() => setToggleMenu(false)} id='about'>About</a></li>
-            <li className='p__opensans'><a href='#menu' onClick={() => setToggleMenu(false)}>Menu</a></li>
+            <li className='p__opensans'><a href='#menu' onClick={() => setToggleMenu(false)} id='menu'>Menu</a></li>
             <li className='p__opensans'><a href='#awards' onClick={() => setToggleMenu(false)}>Awards</a></li>
             <li className='p__opensans'><a href='#contact' onClick={() => setToggleMenu(false)}>Contact</a></li>
           </ul>
